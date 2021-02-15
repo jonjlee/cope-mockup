@@ -10,7 +10,25 @@ publishDir = "docs"
     name = "Home"
     url  = "/"
     weight = 1
-    
+
+[[menu.main]]
+    identifier = "videos"
+    name = "Videos"
+    url  = "/videos/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url  = "/resources/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url  = "/contact"
+    weight = 4
+
 
 [params]
     viewMorePostLink = "/blog/"
@@ -20,16 +38,24 @@ publishDir = "docs"
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
 
-    about_us = "<p>COPE is a program supported by the Kentucy Board of Emergency Services.</p>"
+    about_us = "<p>COPE was supported by the Health Resources and Services Administration (HRSA), Maternal and Child Health Bureau (MCHB), Emergency Medical Services for Children (EMSC) Targeted Issues grant program, Grant No. H34MC26204 for $849,246. This information or content and conclusions are those of the author and should not be construed as the official position or policy of, nor should any endorsements be inferred by HRSA, HHS, or the U.S. government.</p>"
     copyright = "Copyright (c) 2021. All rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/cope-logo.jpg"
+    logo_small = "img/cope-logo.jpg"
     address = """<p class="text-uppercase"><strong>Kentucky Board of Emergency Medical Services</strong>
         <br>2464 Fortune Drive,
         <br>Suite 195
         <br>Lexington, KY 40509
       </p>
       """
+
+[params.carousel]
+    enable = true
+
+[params.features]
+    enable = true
+    # All features are defined in their own files in data/features
