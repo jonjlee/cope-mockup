@@ -2,7 +2,7 @@ baseURL = "https://jonjlee.github.io/cope-mockup/"
 languageCode = "en-us"
 title = "Compassionate Options for Pediatric EMS"
 theme = "hugo-universal-theme"
-
+publishDir = "docs"
 
 [menu]
 [[menu.main]]
