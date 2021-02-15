@@ -1,3 +1,35 @@
 baseURL = "https://jonjlee.github.io/cope-mockup/"
 languageCode = "en-us"
 title = "Compassionate Options for Pediatric EMS"
+theme = "hugo-universal-theme"
+
+
+[menu]
+[[menu.main]]
+    identifier="home"
+    name = "Home"
+    url  = "/"
+    weight = 1
+    
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "Jonathan Lee"
+    mainSections = ["blog"]
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
+
+    about_us = "<p>COPE is a program supported by the Kentucy Board of Emergency Services.</p>"
+    copyright = "Copyright (c) 2021. All rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/cope-logo.jpg"
+    address = """<p class="text-uppercase"><strong>Kentucky Board of Emergency Medical Services</strong>
+        <br>2464 Fortune Drive,
+        <br>Suite 195
+        <br>Lexington, KY 40509
+      </p>
+      """
